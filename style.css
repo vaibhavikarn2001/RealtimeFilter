@@ -10,6 +10,8 @@ background-color: crimson;
 }
 canvas{
     animation-name:example;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 animation-duration: 2s;
 border:5px solid;
 margin-top:150px;
